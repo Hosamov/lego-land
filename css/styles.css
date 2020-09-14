@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Gotu', sans-serif;
+  color:  #FFFFFF;
+  background-image: linear-gradient(to bottom right, #0779e4, #4cbbb9);
+}
+
+div{
+
+}
+
+hr{
+  border: dashed green 20px;
+  border-bottom: none;
+  /*width: 100px;*/
+  margin: 1px auto;
+}
+
+h1{
+  font-size: 3.5rem;
+  margin: 60px 0 0 0;
+}
+
+h2{
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+p{
+  margin-top: 5px;
+  line-height: 2;
+}
+
+.h1_lego_land{
+  margin-top: 0;
+}
+
+.top_container{
+  position: relative;
+  padding-top:100px;
+  padding-bottom: 100px;
+  margin-bottom: 10px;
+}
+
+.middle_container{
+  padding: 50px 0;
+}
+
+.middle_bottom_container{
+  background-color: green;
+}
+
+.mid_bottom_text{
+  color: green;
+  margin: 0;
+}
+
+.bottom_container{
+  position: relative;
+  padding: 0 0 70px 0;
+  margin-bottom: 0;
+  background-color: green;
+}
+
+.top_cloud{
+  position: absolute;
+  top: 40px;
+  left: 600px;
+  width: 250px;
+}
+
+.bottom_cloud{
+  position: absolute;
+  top: 300px;
+  right: 600px;
+}
+
+.reg{
+  font-size: 20px;
+}
+
+.about_row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.minifig_img{
+  position: relative;
+  float: right;
+  margin-right: 20px;
+}
+
+.copyright{
+color: #FFFFFF;
+font-size: 1rem;
+padding: 20px 0;
+}
+
+/* Contact button */
+.mybutton_contact{
+	box-shadow:inset -2px -1px 7px -3px #000000;
+	background:linear-gradient(to bottom, #f23333 5%, #c91818 100%);
+	background-color:#f23333;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.mybutton_contact:hover {
+	background:linear-gradient(to bottom, #c91818 5%, #f23333 100%);
+	background-color:#c91818;
+}
+.mybutton_contact:active {
+	position:relative;
+	top:1px;
+}
+
+/* Facebook button */
+.mybutton_facebook {
+  box-shadow:inset -1px -4px 4px -5px #000000;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.mybutton_facebook:hover {
+  background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.mybutton_facebook:active {
+  position:relative;
+	top:1px;
+}
+
+/* About button */
+.mybutton_about {
+  box-shadow:inset -1px -4px 4px -5px #000000;
+	background:linear-gradient(to bottom, #ecf000 5%, #c1c400 100%);
+	background-color:#ecf000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:19px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton_about:hover {
+  background:linear-gradient(to bottom, #c1c400 5%, #ecf000 100%);
+	background-color:#c1c400;
+}
+.myButton_about:active {
+  position:relative;
+	top:1px;
+}
